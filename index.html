@@ -4,29 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/custom.css">  
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script> -->
   <link rel="stylesheet" href="css/index.css">
+  <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
-
   <title>GetTrovoed.de</title>
 </head>
 
 <body>
   <!-- navbar -->
   <header>
-    <nav class=" navbar navbar-expand-lg navbar-dark bg-dark navbar-padding">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark navbar-padding">
       <a class="navbar-brand" href="#">GetTrovoed.de</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,17 +21,11 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="#hero-header">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link" href="#hero-header">Top-Streamer</a>
           </li>
         </ul>
       </div>
@@ -62,13 +43,165 @@
       </p>
     </div>
   </div>
-  
+
   <!-- streamer -->
-  <div id="streamer" class="container">
+  <div id="top-streamer" class="container">
     <div class="row">
-      <div class="col-sm-12 col-lg-6 col-xl-4 col-xxl-3" style="background-color: red; height: 50px"></div>
+      <h2 class="text-justify text-center w-100 text-white">GetTrovoed Top Streamer</h2>
+
+      <!-- streamer card -->
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+        <div class="card">
+          <picture class="card--picture justify-content-center d-flex">
+            <source srcset="img/streamer/edeiir.webp">
+            <img class="w-100 card--img" src="img/streamer/edeiir.webp" alt="edeiir">
+          </picture>
+          <div>
+            <h3 class="text-justify text-center w-100 text-white">Edeiir</h3>
+            <ul class="card--list justify-content-center d-flex">
+              <li class="text-white card--list--item text-center">World Of Warcraft: Cataclysm, Just Catting, Just
+                Catting</li>
+            </ul>
+            <div class="row">
+              <div class="col col-4 text-center">
+                <a href="https://www.instagram.com/whatiamdressedin/" class="text-white">
+                  <img src="/img/icons/instagram_white.svg" alt="Instagram link" width="32" height="32"
+                    title="Instagram">
+                  <p>Instagram</p>
+                </a>
+              </div>
+              <div class="col col-4 text-center">
+                <a href="https://www.instagram.com/https://trovo.live/edeiir/" class="text-white">
+                  <img src="/img/icons/cast_white.svg" alt="Instagram link" width="32" height="32" title="Instagram">
+                  <p>Trovo</p>
+                </a>
+              </div>
+              <div class="col col-4 text-center">
+                <a href="https://www.youtube.com" class="text-white">
+                  <img src="/img/icons/youtube_white.svg" alt="Instagram link" width="32" height="32" title="Instagram">
+                  <p>Youtube</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- streamer card -->
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+        <div class="card">
+          <picture class="card--picture justify-content-center d-flex">
+            <source srcset="img/streamer/edeiir.webp">
+            <img class="w-100 card--img" src="img/streamer/edeiir.webp" alt="edeiir">
+          </picture>
+          <div>
+            <h3 class="text-justify text-center w-100 text-white">Edeiir</h3>
+            <ul class="card--list justify-content-center d-flex">
+              <li class="text-white card--list--item text-center">World Of Warcraft: Cataclysm, Just Catting, Just
+                Catting</li>
+            </ul>
+            <div class="row">
+              <div class="col col-4 text-center">
+                <a href="https://www.instagram.com/whatiamdressedin/" class="text-white">
+                  <img src="/img/icons/instagram_white.svg" alt="Instagram link" width="32" height="32"
+                    title="Instagram">
+                  <p>Instagram</p>
+                </a>
+              </div>
+              <div class="col col-4 text-center">
+                <a href="https://www.instagram.com/https://trovo.live/edeiir/" class="text-white">
+                  <img src="/img/icons/cast_white.svg" alt="Instagram link" width="32" height="32" title="Instagram">
+                  <p>Trovo</p>
+                </a>
+              </div>
+              <div class="col col-4 text-center">
+                <a href="https://www.youtube.com" class="text-white">
+                  <img src="/img/icons/youtube_white.svg" alt="Instagram link" width="32" height="32" title="Instagram">
+                  <p>Youtube</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- streamer card -->
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+        <div class="card">
+          <picture class="card--picture justify-content-center d-flex">
+            <source srcset="img/streamer/edeiir.webp">
+            <img class="w-100 card--img" src="img/streamer/edeiir.webp" alt="edeiir">
+          </picture>
+          <div>
+            <h3 class="text-justify text-center w-100 text-white">Edeiir</h3>
+            <ul class="card--list justify-content-center d-flex">
+              <li class="text-white card--list--item text-center">World Of Warcraft: Cataclysm, Just Catting, Just
+                Catting</li>
+            </ul>
+            <div class="row">
+              <div class="col col-4 text-center">
+                <a href="https://www.instagram.com/whatiamdressedin/" class="text-white">
+                  <img src="/img/icons/instagram_white.svg" alt="Instagram link" width="32" height="32"
+                    title="Instagram">
+                  <p>Instagram</p>
+                </a>
+              </div>
+              <div class="col col-4 text-center">
+                <a href="https://www.instagram.com/https://trovo.live/edeiir/" class="text-white">
+                  <img src="/img/icons/cast_white.svg" alt="Instagram link" width="32" height="32" title="Instagram">
+                  <p>Trovo</p>
+                </a>
+              </div>
+              <div class="col col-4 text-center">
+                <a href="https://www.youtube.com" class="text-white">
+                  <img src="/img/icons/youtube_white.svg" alt="Instagram link" width="32" height="32" title="Instagram">
+                  <p>Youtube</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- streamer card -->
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+        <div class="card">
+          <picture class="card--picture justify-content-center d-flex">
+            <source srcset="img/streamer/edeiir.webp">
+            <img class="w-100 card--img" src="img/streamer/edeiir.webp" alt="edeiir">
+          </picture>
+          <div>
+            <h3 class="text-justify text-center w-100 text-white">Edeiir</h3>
+            <ul class="card--list justify-content-center d-flex">
+              <li class="text-white card--list--item text-center">World Of Warcraft: Cataclysm, Just Catting, Just
+                Catting</li>
+            </ul>
+            <div class="row">
+              <div class="col col-4 text-center">
+                <a href="https://www.instagram.com/whatiamdressedin/" class="text-white">
+                  <img src="/img/icons/instagram_white.svg" alt="Instagram link" width="32" height="32"
+                    title="Instagram">
+                  <p>Instagram</p>
+                </a>
+              </div>
+              <div class="col col-4 text-center">
+                <a href="https://www.instagram.com/https://trovo.live/edeiir/" class="text-white">
+                  <img src="/img/icons/cast_white.svg" alt="Instagram link" width="32" height="32" title="Instagram">
+                  <p>Trovo</p>
+                </a>
+              </div>
+              <div class="col col-4 text-center">
+                <a href="https://www.youtube.com" class="text-white">
+                  <img src="/img/icons/youtube_white.svg" alt="Instagram link" width="32" height="32" title="Instagram">
+                  <p>Youtube</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- cards top-streamer end -->
     </div>
-  </div>
 
 
 </body>

@@ -1,5 +1,41 @@
 @import "variables.scss";
+@import "grid";
 
 body{
     background-color: $bg-dark;
+}
+
+a + p:hover {
+    color: pink;
+}
+
+.row{
+    margin: 25px 0;
+}
+
+.w-80{
+    width: 80%;
+}
+
+.card{
+    margin: 25px 0;
+    border: 0;
+    border-radius: 25px;
+    background: $secondary;
+    &--picture{
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    &--img{
+        border-radius: 25px 25px 0 0;
+    }
+
+    &--list{
+        list-style: none;
+        padding: 0;
+        &--item{
+            max-width: 80%;
+        }
+    }
 }
