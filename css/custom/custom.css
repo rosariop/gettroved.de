@@ -1,0 +1,17 @@
+.navbar-padding {
+  padding: 8px 16px;
+}
+
+.chero {
+  height: calc(100vh - 56px);
+  max-height: 540px;
+}
+.chero--background {
+  background: #5aa26f;
+}
+
+body {
+  background-color: #2d2d2d;
+}
+
+/*# sourceMappingURL=custom.css.map */
