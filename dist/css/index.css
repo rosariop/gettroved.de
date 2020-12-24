@@ -12569,9 +12569,14 @@ h3 {
     margin-left: 91.6666666667%;
   }
 }
+@font-face {
+  font-family: DaysOne;
+  src: url(../../dist/font/DaysOne-Regular.ttf);
+}
 body {
   background: #7de5a3;
   background: linear-gradient(60deg, #7de5a3 0%, #8ae067 100%);
+  font-family: "DaysOne";
 }
 
 a + p:hover {

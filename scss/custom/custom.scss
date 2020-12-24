@@ -1,10 +1,12 @@
 @import "variables.scss";
-@import "grid";
+@import "grid.scss";
+@import "fonts.scss";
 
 body{
     //background-color: $bg-dark;
     background: rgb(125,229,163);
     background: linear-gradient(60deg, rgba(125,229,163,1) 0%, rgba(138,224,103,1) 100%);
+    font-family: "DaysOne";
 }
 
 a + p:hover {
