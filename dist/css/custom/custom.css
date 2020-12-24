@@ -1334,7 +1334,10 @@
 }
 body {
   background: #7de5a3;
-  background: linear-gradient(60deg, #7de5a3 0%, #8ae067 100%);
+  background: -moz-linear-gradient(60deg, #7de5a3 0%, #8ae067 79%, #00d4ff 100%);
+  background: -webkit-linear-gradient(60deg, #7de5a3 0%, #8ae067 79%, #00d4ff 100%);
+  background: linear-gradient(60deg, #7de5a3 0%, #8ae067 79%, #00d4ff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7de5a3",endColorstr="#00d4ff",GradientType=1);
   font-family: "DaysOne";
 }
 
@@ -1403,7 +1406,10 @@ footer {
 }
 .perk--background {
   background: #68b94e;
-  background: linear-gradient(60deg, #68b94e 0%, #5e99e2 100%);
+  background: -moz-linear-gradient(60deg, #68b94e 0%, #5e99e2 79%, #00d4ff 100%);
+  background: -webkit-linear-gradient(60deg, #68b94e 0%, #5e99e2 79%, #00d4ff 100%);
+  background: linear-gradient(60deg, #68b94e 0%, #5e99e2 79%, #00d4ff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#68b94e",endColorstr="#00d4ff",GradientType=1);
 }
 .perk--img {
   width: 25%;

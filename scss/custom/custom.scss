@@ -5,7 +5,11 @@
 body{
     //background-color: $bg-dark;
     background: rgb(125,229,163);
-    background: linear-gradient(60deg, rgba(125,229,163,1) 0%, rgba(138,224,103,1) 100%);
+    background: -moz-linear-gradient(60deg, rgba(125,229,163,1) 0%, rgba(138,224,103,1) 79%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(60deg, rgba(125,229,163,1) 0%, rgba(138,224,103,1) 79%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(60deg, rgba(125,229,163,1) 0%, rgba(138,224,103,1) 79%, rgba(0,212,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7de5a3",endColorstr="#00d4ff",GradientType=1);
+    
     font-family: "DaysOne";
 }
 
@@ -75,8 +79,11 @@ footer{
 .perk{
     padding: 0 25px;
     &--background{
-    background: rgb(104,185,78);
-    background: linear-gradient(60deg, rgba(104,185,78,1) 0%, rgba(94,153,226,1) 100%); 
+        background: rgb(104,185,78);
+        background: -moz-linear-gradient(60deg, rgba(104,185,78,1) 0%, rgba(94,153,226,1) 79%, rgba(0,212,255,1) 100%);
+        background: -webkit-linear-gradient(60deg, rgba(104,185,78,1) 0%, rgba(94,153,226,1) 79%, rgba(0,212,255,1) 100%);
+        background: linear-gradient(60deg, rgba(104,185,78,1) 0%, rgba(94,153,226,1) 79%, rgba(0,212,255,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#68b94e",endColorstr="#00d4ff",GradientType=1);
     }
 
     &--img{
