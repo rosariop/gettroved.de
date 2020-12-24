@@ -2,11 +2,17 @@
 @import "grid";
 
 body{
-    background-color: $bg-dark;
+    //background-color: $bg-dark;
+    background: rgb(125,229,163);
+    background: linear-gradient(60deg, rgba(125,229,163,1) 0%, rgba(138,224,103,1) 100%);
 }
 
 a + p:hover {
     color: pink;
+}
+
+footer{
+    min-height: 50px;
 }
 
 .row{
@@ -17,18 +23,36 @@ a + p:hover {
     width: 80%;
 }
 
+.bg-dark{
+    background: $bg-dark;
+}
+
+.navbar-padding{
+    padding: 8px 16px;
+}
+
+.text-darker-white{
+    color: $darker-white;
+}
+
+.chero{
+    height: calc(100vh - 56px);
+    max-height: 540px;
+}
+
 .card{
     margin: 25px 0;
     border: 0;
     border-radius: 25px;
     background: $secondary;
     &--picture{
-        width: 100%;
+        margin: 25px auto;
+        align-self: center;
+        width: 50%;
         height: auto;
-        margin: 0;
     }
     &--img{
-        border-radius: 25px 25px 0 0;
+        border-radius: 100%;
     }
 
     &--list{
@@ -36,6 +60,43 @@ a + p:hover {
         padding: 0;
         &--item{
             max-width: 80%;
+        }
+    }
+}
+
+.section{
+    &--headline{
+        margin: 25px 0 0 0;
+    }
+}
+
+.perk{
+    padding: 0 25px;
+    &--background{
+    background: rgb(104,185,78);
+    background: linear-gradient(60deg, rgba(104,185,78,1) 0%, rgba(94,153,226,1) 100%); 
+    }
+
+    &--img{
+        width: 25%;
+        margin-top: -25px;
+        border-radius: 100%;
+    }
+
+    @media (min-width: 1610px) {
+        &--img{
+            margin-top: -35px;
+        }
+    }
+}
+
+.footer{
+    margin: 25px 0 0 0 !important;
+    &--copyright{
+        justify-content: center;
+        &--link{
+            justify-content: center;
+            align-items: center;
         }
     }
 }
