@@ -12,7 +12,7 @@
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <!-- slick slider -->
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
   <title>GetTroved.de</title>
@@ -47,24 +47,94 @@
   <!-- hero header -->
   <div id="hero-header" class="chero chero--background text-white d-flex flex-column justify-content-center">
     <div>
-      <h1 class="text-justify text-center">GetTrovoed.de - Streamers Connected</h1>
-      <h2 class="text-justify text-center">Wilkommen auf der Website von GetTrovoed.de</h2>
-      <p class="text-justify text-center">Wir sind ein deutsches Streamernetzwerk mit dem Fokus,
+      <h1 class="text-justify text-center text-shadow--xl">GetTroved.de - Streamers Connected</h1>
+      <h2 class="text-justify text-center text-shadow--md">Wilkommen auf der Website von GetTroved.de</h2>
+      <p class="text-justify text-center text-shadow--md">Wir sind ein deutsches Streamernetzwerk mit dem Fokus,
         die deutsche Streamercommunity auf trovo zu fördern. <br>
         Bei uns steht der Spaß am Streamen im Vordergrund!
       </p>
     </div>
   </div>
 
+  <!-- banner -->
+  <section>
+    <div class="row">
+      <div class="cols-xs-12 col-lg-2 banner--col">
+        <div class="banner banner--ig text-center text-white">
+          <h4>Instagram</h4>
+          <button type="button" class="btn btn-primary">Öffnen</button>
+        </div>
+      </div>
+      <div class="cols-xs-12 col-lg-2 banner--col">
+        <div class="banner banner--discord text-center text-white">
+          <h4>Discord</h4>
+          <button type="button" class="btn btn-primary">Öffnen</button>
+        </div>
+      </div>
+      <div class="cols-xs-12 col-lg-2 banner--col">
+        <div class="banner banner--yt text-center text-white">
+          <h4>Youtube</h4>
+          <button type="button" class="btn btn-primary">Öffnen</button>
+        </div>
+      </div>
+      <div class="cols-xs-12 col-lg-6 banner--col">
+        <div class="text-center text-white banner--contact">
+          <h4>Interesse? Schreib uns!</h4>
+          <button type="button" class="btn btn-primary">Öffnen</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- streamer -->
   <section id="top-streamer" class="bg-dark w-100">
     <div class=" container">
       <div class="row">
-        <h2 class="text-justify text-center w-100 text-white section--headline">GetTrovoed Top Streamer</h2>
+        <h2 class="text-justify text-center w-100 text-white section--headline text-shadow--xl">GetTroved Top Streamer
+        </h2>
 
         <!-- streamer card -->
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
-          <div class="card">
+          <div class="card shadow-lg perk--border">
+            <picture class="card--picture justify-content-center d-flex">
+              <source srcset="img/streamer/edeiir.webp">
+              <img class="w-100 card--img" src="img/streamer/edeiir.webp" alt="edeiir">
+            </picture>
+            <div>
+              <h3 class="text-justify text-center w-100 text-white">Edeiir</h3>
+              <ul class="card--list justify-content-center d-flex">
+                <li class="text-white card--list--item text-center">World Of Warcraft: Cataclysm, Just Catting, Just
+                  Catting</li>
+              </ul>
+              <div class="row">
+                <div class="col col-4 text-center">
+                  <a href="https://www.instagram.com/whatiamdressedin/" class="text-white">
+                    <img src="img/icons/instagram_white.svg" alt="Instagram link" width="32" height="32"
+                      title="Instagram">
+                    <p>Instagram</p>
+                  </a>
+                </div>
+                <div class="col col-4 text-center">
+                  <a href="https://www.instagram.com/https://trovo.live/edeiir/" class="text-white">
+                    <img src="img/icons/cast_white.svg" alt="Instagram link" width="32" height="32" title="Instagram">
+                    <p>Trovo</p>
+                  </a>
+                </div>
+                <div class="col col-4 text-center">
+                  <a href="https://www.youtube.com" class="text-white">
+                    <img src="img/icons/youtube_white.svg" alt="Instagram link" width="32" height="32"
+                      title="Instagram">
+                    <p>Youtube</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- streamer card -->
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-3 ">
+          <div class="card shadow-lg perk--border">
             <picture class="card--picture justify-content-center d-flex">
               <source srcset="img/streamer/edeiir.webp">
               <img class="w-100 card--img" src="img/streamer/edeiir.webp" alt="edeiir">
@@ -103,7 +173,7 @@
 
         <!-- streamer card -->
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
-          <div class="card">
+          <div class="card shadow-lg perk--border">
             <picture class="card--picture justify-content-center d-flex">
               <source srcset="img/streamer/edeiir.webp">
               <img class="w-100 card--img" src="img/streamer/edeiir.webp" alt="edeiir">
@@ -142,46 +212,7 @@
 
         <!-- streamer card -->
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
-          <div class="card">
-            <picture class="card--picture justify-content-center d-flex">
-              <source srcset="img/streamer/edeiir.webp">
-              <img class="w-100 card--img" src="img/streamer/edeiir.webp" alt="edeiir">
-            </picture>
-            <div>
-              <h3 class="text-justify text-center w-100 text-white">Edeiir</h3>
-              <ul class="card--list justify-content-center d-flex">
-                <li class="text-white card--list--item text-center">World Of Warcraft: Cataclysm, Just Catting, Just
-                  Catting</li>
-              </ul>
-              <div class="row">
-                <div class="col col-4 text-center">
-                  <a href="https://www.instagram.com/whatiamdressedin/" class="text-white">
-                    <img src="img/icons/instagram_white.svg" alt="Instagram link" width="32" height="32"
-                      title="Instagram">
-                    <p>Instagram</p>
-                  </a>
-                </div>
-                <div class="col col-4 text-center">
-                  <a href="https://www.instagram.com/https://trovo.live/edeiir/" class="text-white">
-                    <img src="img/icons/cast_white.svg" alt="Instagram link" width="32" height="32" title="Instagram">
-                    <p>Trovo</p>
-                  </a>
-                </div>
-                <div class="col col-4 text-center">
-                  <a href="https://www.youtube.com" class="text-white">
-                    <img src="img/icons/youtube_white.svg" alt="Instagram link" width="32" height="32"
-                      title="Instagram">
-                    <p>Youtube</p>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- streamer card -->
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
-          <div class="card">
+          <div class="card shadow-lg perk--border">
             <picture class="card--picture justify-content-center d-flex">
               <source srcset="img/streamer/edeiir.webp">
               <img class="w-100 card--img" src="img/streamer/edeiir.webp" alt="edeiir">
@@ -227,44 +258,61 @@
   <section>
     <div class="container text-white">
       <div class="row text-center">
+        <h2 class="text-justify text-center w-100 text-white section--headline text-shadow--xl mb-25">Vorteile von
+          GetTroved.de</h2>
         <!-- perk -->
         <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-4 col-xxl-4">
-          <div class="card perk perk--background">
+          <div class="card perk perk--background shadow-lg perk--border">
             <div class="d-flex w-100">
-            <picture class="">
-              <source srcset="img/streamer/edeiir.webp">
-              <img class="perk--img" src="img/streamer/edeiir.webp" alt="edeiir">
-            </picture>
-          </div>
+              <picture class="">
+                <source srcset="img/streamer/edeiir.webp">
+                <img class="perk--img" src="img/streamer/edeiir.webp" alt="edeiir">
+              </picture>
+            </div>
             <h2 class="section--headline">Erreiche mehr Zuschauer</h2>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-          </div>  
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+              et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+              amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+              aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+              gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+          </div>
         </div>
         <!-- perk -->
         <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-4 col-xxl-4">
-          <div class="card perk perk--background">
+          <div class="card perk perk--background shadow-lg perk--border">
             <div class="d-flex w-100">
-            <picture class="">
-              <source srcset="img/streamer/edeiir.webp">
-              <img class="perk--img" src="img/streamer/edeiir.webp" alt="edeiir">
-            </picture>
-          </div>
+              <picture class="">
+                <source srcset="img/streamer/edeiir.webp">
+                <img class="perk--img" src="img/streamer/edeiir.webp" alt="edeiir">
+              </picture>
+            </div>
             <h2 class="section--headline">Erreiche mehr Zuschauer</h2>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-          </div>  
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+              et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+              amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+              aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+              gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+          </div>
         </div>
         <!-- perk -->
         <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-4 col-xxl-4">
-          <div class="card perk perk--background">
+          <div class="card perk perk--background shadow-lg perk--border">
             <div class="d-flex w-100">
-            <picture class="">
-              <source srcset="img/streamer/edeiir.webp">
-              <img class="perk--img" src="img/streamer/edeiir.webp" alt="edeiir">
-            </picture>
-          </div>
+              <picture class="">
+                <source srcset="img/streamer/edeiir.webp">
+                <img class="perk--img" src="img/streamer/edeiir.webp" alt="edeiir">
+              </picture>
+            </div>
             <h2 class="section--headline">Erreiche mehr Zuschauer</h2>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-          </div>  
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+              et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+              amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+              aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+              gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -274,9 +322,11 @@
     <div class="container h-100 footer--copyright d-flex">
       <div class="row footer">
         <a href="" class="text-white d-flex footer--copyright--link col-12">Impressum</a>
-        <p class="text-white d-flex footer--copyright--link col-12">GetTroved &copy;2020 || Rosario-Francesco Polito</p>
+        <p class="text-white d-flex footer--copyright--link col-12 m-0">GetTroved &copy;2020 || Rosario-Francesco Polito
+        </p>
       </div>
     </div>
   </footer>
 </body>
+
 </html>

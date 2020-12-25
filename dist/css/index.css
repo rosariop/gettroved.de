@@ -12629,6 +12629,7 @@ footer {
 }
 .card--img {
   border-radius: 100%;
+  border: black 2px solid;
 }
 .card--list {
   list-style: none;
@@ -12657,21 +12658,75 @@ footer {
   margin-top: -25px;
   border-radius: 100%;
 }
+.perk--border {
+  border: black 3px solid;
+}
 @media (min-width: 1610px) {
   .perk--img {
     margin-top: -35px;
   }
 }
 
-.footer {
-  margin: 25px 0 0 0 !important;
-}
 .footer--copyright {
   justify-content: center;
 }
 .footer--copyright--link {
   justify-content: center;
   align-items: center;
+}
+
+.text-shadow--xs {
+  text-shadow: 3px 3px 5px black;
+}
+.text-shadow--sm {
+  text-shadow: 3px 3px 10px black;
+}
+.text-shadow--md {
+  text-shadow: 3px 3px 15px black;
+}
+.text-shadow--lg {
+  text-shadow: 3px 3px 20px black;
+}
+.text-shadow--xl {
+  text-shadow: 3px 3px 25px black;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.banner {
+  width: 100%;
+  min-height: 100px;
+  background-size: 100% 100%;
+}
+.banner--ig {
+  background: url("../../dist/img/banner/Instagram.svg") no-repeat;
+  background-color: #8870f1;
+}
+.banner--discord {
+  background: url("../../dist/img/banner/discord.svg") no-repeat;
+  background-color: #78a6f7;
+}
+.banner--yt {
+  background: url("../../dist/img/banner/YouTube.svg") no-repeat;
+  background-color: #5f1910;
+}
+.banner--contact {
+  background-color: yellow;
+}
+.banner--col {
+  padding: 0 !important;
+}
+
+.btn-primary {
+  border-color: #5aa26f;
+  background-color: #5aa26f;
+}
+
+.btn-primary:hover {
+  border-color: #a73a3a;
+  background-color: #a73a3a;
 }
 
 /*# sourceMappingURL=index.css.map */
