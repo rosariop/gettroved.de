@@ -21,6 +21,10 @@ footer{
     min-height: 50px;
 }
 
+.list-none{
+    list-style: none;
+}
+
 .row{
     margin: 25px 0;
 }
@@ -163,7 +167,7 @@ footer{
     }
 
     &--contact{
-        background-color: yellow;
+        background-color: pink;
     }
 
     &--col{

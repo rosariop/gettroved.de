@@ -12590,6 +12590,10 @@ footer {
   min-height: 50px;
 }
 
+.list-none {
+  list-style: none;
+}
+
 .row {
   margin: 25px 0;
 }
@@ -12696,9 +12700,9 @@ footer {
 }
 
 .banner {
-  width: 100%;
+  width: 100vw;
   min-height: 100px;
-  background-size: 100% 100%;
+  /*background-size: 100% 100%;*/
 }
 .banner--ig {
   background: url("../../dist/img/banner/Instagram.svg") no-repeat;
@@ -12713,7 +12717,7 @@ footer {
   background-color: #5f1910;
 }
 .banner--contact {
-  background-color: yellow;
+  background-color: pink;
 }
 .banner--col {
   padding: 0 !important;
