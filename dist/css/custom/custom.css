@@ -1459,24 +1459,33 @@ footer {
 }
 
 .banner {
-  width: 100vw;
+  width: 100%;
   min-height: 100px;
-  /*background-size: 100% 100%;*/
+  background-size: cover;
 }
 .banner--ig {
-  background: url("../../dist/img/banner/Instagram.svg") no-repeat;
+  background-image: url("../../dist/img/banner/Instagram.svg");
+  background-repeat: no-repeat;
   background-color: #8870f1;
 }
 .banner--discord {
-  background: url("../../dist/img/banner/discord.svg") no-repeat;
+  background-image: url("../../dist/img/banner/discord.svg");
+  background-repeat: no-repeat;
   background-color: #78a6f7;
 }
 .banner--yt {
-  background: url("../../dist/img/banner/YouTube.svg") no-repeat;
+  background-image: url("../../dist/img/banner/YouTube.svg");
+  background-repeat: no-repeat;
   background-color: #5f1910;
 }
 .banner--contact {
-  background-color: pink;
+  border: black 1px solid;
+  background: #68b94e;
+  background: -moz-linear-gradient(60deg, #68b94e 0%, #5e99e2 79%, #00d4ff 100%);
+  background: -webkit-linear-gradient(60deg, #68b94e 0%, #5e99e2 79%, #00d4ff 100%);
+  background: linear-gradient(60deg, #68b94e 0%, #5e99e2 79%, #00d4ff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#68b94e",endColorstr="#00d4ff",GradientType=1);
+  min-height: 100px;
 }
 .banner--col {
   padding: 0 !important;
